@@ -64,6 +64,7 @@ const OwnEditor: React.FC<EditorProps> = ({ handleNotesList }) => {
     console.log(markdownContent);
 
     handleNotesList({ id: generateId, content: markdownContent });
+    console.log("Hi")
   };
   return (
     <section className="w-[45%] h-full border rounded-lg flex flex-col">
